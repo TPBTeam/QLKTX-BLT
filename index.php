@@ -1,5 +1,5 @@
 <?php 
-	require "admin/login.php";
+	header("location: admin/login.php");
 ?>
 <!DOCTYPE html>
 <html>

@@ -18,12 +18,18 @@ require "template/components/siderbar.php";
   <tbody>
     <?php 
         while ($khunha_rows = $khunha -> fetch_array()) {
+          $makhunha = $khunha_rows['makhunha'];
     ?>
     <tr>
-      <th scope="row"><?php echo $khunha_rows['tenkhu'] ?></th>
+      <th scope="row"><a href="index.php?page=qlkhu&act=detail&khu=<?php echo $makhunha ?>"><?php echo $khunha_rows['tenkhu'] ?></a></th>
       <td><?php echo $khunha_rows['soluongp'] ?></td>
       <td><?php echo $khunha_rows['soluongsinhvien'] ?></td>
-      <td><?php echo $khunha_rows['loaikhu'] ?></td>
+      <td><?php if ($khunha_rows['loaikhu'] == 'knam') {
+        echo "Khu cho nam";
+      }else{
+        echo "Khu cho nữ";
+
+      } ?></td>
       <td><?php echo getNameManageById($khunha_rows['idql']) ?></td>
     </tr>
     <?php 

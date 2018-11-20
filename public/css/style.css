@@ -52,7 +52,7 @@ body#LoginForm{ background-image:url("https://hdwallsource.com/img/2014/9/blur-2
 .back { text-align: left; margin-top:10px;}
 .back a {color: #444444; font-size: 13px;text-decoration: none;}
 
-/*Trang quáº£n lÃ½*/
+/*Trang quÃ¡ÂºÂ£n lÃƒÂ½*/
 /*
     DEMO STYLE
 */
@@ -308,4 +308,57 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+}
+
+/*CSS cho deltail khu*/
+.boxhome {
+    position: relative;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    padding-left: 12px;
+    
+}
+.sophong {
+    width: fit-content;
+    border: 1px solid #0101d6;
+    padding: 3px;
+    font-size: 10px;
+    background: #dfdfff;
+    font-weight: 600;
+}
+.giaphong {
+    width: fit-content;
+    border: 1px solid #0101d6;
+    padding: 3px;
+    font-size: 10px;
+    background: #dfdfff;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.boxhome p {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+p.tenphong {
+    font-size: 15px;
+    font-weight: bold;
+    color: #6565f9;
+    margin-bottom: 5px;
+}
+.boxhome .fa-city {
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    color: #565656;
+    top: 10px;
+}
+.toolhome button {
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 0px;
+}
+.toolhome{
+    margin-bottom: 18px;
 }

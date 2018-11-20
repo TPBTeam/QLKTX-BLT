@@ -13,6 +13,9 @@
 			case 'list':
 				require_once "list.php";
 				break;
+			case 'detail':
+				require_once "detail.php";
+				break;
 			default:
 				// code...
 				break;
