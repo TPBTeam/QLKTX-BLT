@@ -2,7 +2,7 @@
 require "libs/function.php";
 if(isset($_GET['khu'])){
   $makhunha = $_GET['khu'];
-  $makhunha = getNameKhuById($makhunha);
+  $tenkhu = getNameKhuById($makhunha);
   if(isset($_POST['submit_button'])) {
    if(!empty($_POST['tenphong']) && !empty($_POST['tsgiuong']) && !empty($_POST['giaphong'])){
     $tenphong = $_POST['tenphong'];
@@ -13,7 +13,6 @@ if(isset($_GET['khu'])){
     if($__conn->query($qr)  === TRUE){
       header("location: index.php?page=qlkhu&act=detail&khu=$makhunha");
     }
-
   }else{
     if(empty($_POST['tenphong'])){
       echo "Vui lòng nhập tên phòng";

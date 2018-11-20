@@ -7,7 +7,7 @@ require "template/components/siderbar.php";
 	<h3>Thêm phòng mới</h3>
 	<form method="POST">
 		Tên phòng: <br /><input type="text" name="tenphong"><br />
-	Thuộc khu nhà: <?php echo $makhunha ?>
+	Thuộc khu nhà: <?php echo $tenkhu ?>
 	<br />
 	Tổng số giường<br />
 	<input type="number" name="tsgiuong"><br />

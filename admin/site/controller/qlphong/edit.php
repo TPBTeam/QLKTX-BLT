@@ -1,9 +1,11 @@
 <?php
 require "libs/function.php";
-	if(isset($_GET['phong'])){
+	if(isset($_GET['phong']) && isset($_GET['khu'])){
 		$masophong = $_GET['phong'];
 		$qr = getPhongByID($masophong);
 		$phong = $qr->fetch_array();
+    $makhunha = $_GET['khu'];
+    $tenkhu = getNameKhuById($makhunha);
 	}
 
 	if(isset($_POST['submit_button'])) {
@@ -11,8 +13,6 @@ require "libs/function.php";
           $tenphong = $_POST['tenphong'];
           $tsgiuong = $_POST['tsgiuong'];
           $giaphong = $_POST['giaphong'];
-          $makhunha = $_POST['khunha'];
-          $makhunha = getIdByNameKhunha($makhunha);
 
           $qr = "UPDATE phong SET tenphong = '$tenphong',tsgiuong = '$tsgiuong',giaphong = '$giaphong',makhunha = '$makhunha' WHERE masophong = '$masophong' ";
           if($__conn->query($qr)  === TRUE){

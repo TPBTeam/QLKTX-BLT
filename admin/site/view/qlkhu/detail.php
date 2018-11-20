@@ -32,7 +32,7 @@ require "template/components/siderbar.php";
         <p>T/S sinh viên: <span class="tssinhvien"><?php echo $phong_rows['soluongsv'] ?></span></p>
       </div>
       <div class="toolhome">
-        <button class="btn btn-primary"><i class="far fa-edit"></i> <a href="index.php?page=qlphong&act=edit&phong=<?php echo $phong_rows['masophong']?>">Chỉnh sửa</a></button>
+        <button class="btn btn-primary"><i class="far fa-edit"></i> <a href="index.php?page=qlphong&act=edit&phong=<?php echo $phong_rows['masophong']?>&khu=<?php echo $makhunha ?>">Chỉnh sửa</a></button>
         <button class="btn btn-danger"><i class="far fa-trash-alt"></i> <a href="index.php?page=qlphong&act=delete&phong=<?php echo $phong_rows['masophong']?>">Xóa</a></button>
       </div>
     </div>

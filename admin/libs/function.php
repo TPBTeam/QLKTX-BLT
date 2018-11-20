@@ -69,5 +69,11 @@
 		$khunha_row = $khunha->fetch_array();
 		return $khunha_row['tenkhu'];
 	}
+	function getNumberRoom($makhunha){
+		global $__conn;
+		$qr = "SELECT * FROM phong WHERE makhunha = '$makhunha' ";
+		$khunha =  $__conn->query($qr);
+		return $khunha->num_rows;
+	}
 
 ?>
