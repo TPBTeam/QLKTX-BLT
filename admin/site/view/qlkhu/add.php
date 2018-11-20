@@ -8,8 +8,8 @@ require "template/components/siderbar.php";
   <form method="POST">
     Tên khu: <br /><input type="text" name="tenkhu" placeholder="Nhập tên khu"><br />
     Số lượng phòng: <br /><input type="number" name="soluongp" placeholder="Nhập số lượng phòng"><br />
-    Loại khu: <br /><input type="radio" name="gioitinh" value="knam">Dành cho nam<br />
-    <input type="radio" name="gioitinh" value="knu">Dành cho nữ<br />
+    Loại khu: <br /><input type="radio" name="loaikhu" value="knam">Dành cho nam<br />
+    <input type="radio" name="loaikhu" value="knu">Dành cho nữ<br />
     Nhân viên quản lý:<br />
     <select name="quanly">
       <?php 

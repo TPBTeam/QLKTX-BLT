@@ -16,34 +16,19 @@ require "template/components/siderbar.php";
     </tr>
   </thead>
   <tbody>
+    <?php 
+        while ($khunha_rows = $khunha -> fetch_array()) {
+    ?>
     <tr>
-      <th scope="row">A1</th>
-      <td>Số lượng phòng</td>
-      <td>Số lượng sinh viên</td>
-      <td>Loại khu</td>
-      <td>Nhân viên quản lý</td>
+      <th scope="row"><?php echo $khunha_rows['tenkhu'] ?></th>
+      <td><?php echo $khunha_rows['soluongp'] ?></td>
+      <td><?php echo $khunha_rows['soluongsinhvien'] ?></td>
+      <td><?php echo $khunha_rows['loaikhu'] ?></td>
+      <td><?php echo getNameManageById($khunha_rows['idql']) ?></td>
     </tr>
-    <tr>
-      <th scope="row">C2</th>
-      <td>Số lượng phòng</td>
-      <td>Số lượng sinh viên</td>
-      <td>Loại khu</td>
-      <td>Nhân viên quản lý</td>
-    </tr>
-    <tr>
-      <th scope="row">C4</th>
-      <td>Số lượng phòng</td>
-      <td>Số lượng sinh viên</td>
-      <td>Loại khu</td>
-      <td>Nhân viên quản lý</td>
-    </tr>
-    <tr>
-      <th scope="row">C1</th>
-      <td>Số lượng phòng</td>
-      <td>Số lượng sinh viên</td>
-      <td>Loại khu</td>
-      <td>Nhân viên quản lý</td>
-    </tr>
+    <?php 
+       }
+    ?>
   </tbody>
 </table>
 </div>

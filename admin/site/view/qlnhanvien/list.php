@@ -5,6 +5,7 @@ require "template/components/siderbar.php";
 ?>
 <!-- Page Content  -->
 <div class="qlkhuadd">
+  <button class="btn btn-primary mb-2"><a href="index.php?page=qlnhanvien&act=add">Thêm nhân viên mới</a></button>
   <h3>Danh sách nhân viên</h3>
   <table class="table">
     <thead class="thead-light">
