@@ -14,6 +14,12 @@
                 </li>
                 <li>
                     <a href="#">
+                        <i class="fas fa-file-contract"></i>
+                        Làm hợp đồng
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
                         <i class="fas fa-user"></i>
                         Người dùng
                     </a>
@@ -58,7 +64,7 @@
                 <li>
                     <a href="#qlnhanvien" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-city"></i>
-                        Quản lý
+                        Nhân viên
                     </a>
                     <ul class="collapse list-unstyled" id="qlnhanvien">
                         <li>

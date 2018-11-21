@@ -26,6 +26,8 @@ session_start();
 				break;
 				case 'dashboard': include_once('site/dashboard.php');
 				break;
+				case 'qlhopdong': include_once('site/controller/qlhopdong/qlhopdong.php');
+				break;
 			}
 		}else{
 			header('location: index.php?page=dashboard');
