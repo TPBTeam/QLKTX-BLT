@@ -13,7 +13,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="index.php?page=qlhopdong&act=add">
                         <i class="fas fa-file-contract"></i>
                         Làm hợp đồng
                     </a>

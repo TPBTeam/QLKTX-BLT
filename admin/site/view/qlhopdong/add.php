@@ -19,7 +19,7 @@ require "template/components/siderbar.php";
 			Độc lập- Tự do- Hạnh phúc
 		</p>
 		</div>
-		<h3>HỢP ĐỒNG THUÊ CHỖ Ở NỘI TRÚ</h3>
+		<h3 class="text-center">HỢP ĐỒNG THUÊ CHỖ Ở NỘI TRÚ</h3>
 		<p>Hôm nay, ngày ........ tháng ......... năm ........; tại Trường ............................................</p>
 		<p>Hai bên gồm:</p>
 		<p>BÊN CHO THUÊ (Bên A): TRƯỜNG ..........................................................................</p>
@@ -107,6 +107,7 @@ require "template/components/siderbar.php";
 		</p>
 	</div>
 </div>
+<button class="text-center inhopdong">In hợp đồng</button>
 <!-- END Content  -->
 <?php 
 require "template/components/footer.php";
