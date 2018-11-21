@@ -32,7 +32,7 @@ require "template/components/siderbar.php";
           <p>T/S sinh viên: <span class="tssinhvien"><?php echo $phong_rows['soluongsv'] ?></span></p>
         </div>
         <div class="toolhome">
-          <button class="btn btn-primary"><i class="far fa-edit"></i> <a href="index.php?page=qlphong&act=edit&phong=<?php echo $phong_rows['masophong']?>&khu=<?php echo $makhunha ?>">Chỉnh sửa</a></button>
+          <a href="index.php?page=qlphong&act=edit&phong=<?php echo $phong_rows['masophong']?>&khu=<?php echo $makhunha ?>"><button class="btn btn-primary"><i class="far fa-edit"></i> Chỉnh sửa</button></a>
           <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"><i class="far fa-trash-alt"></i> Xóa</button>
           <!-- Hiển thị popup -->
           <div class="modal fade" id="myModal">
@@ -47,7 +47,7 @@ require "template/components/siderbar.php";
 
                 <!-- Modal body -->
                 <div class="modal-body text-center popupdel">
-                  <button type="button" class="btn btn-danger"><a href="index.php?page=qlphong&act=delete&phong=<?php echo $phong_rows['masophong']?>">Đồng ý</a></button>
+                  <a href="index.php?page=qlphong&act=delete&phong=<?php echo $phong_rows['masophong']?>"><button type="button" class="btn btn-danger">Đồng ý</button></a>
                   <button type="button" class="btn btn-danger" data-dismiss="modal">Quay lại</button>
                 </div>
                 <!-- Modal footer -->
