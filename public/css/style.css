@@ -425,7 +425,7 @@ h3.text-center {
     color:black;
     font-size: 1.1em;
 }
-.end-hopdong-right {float: right;margin-right: 186px;text-align:;}
+.end-hopdong-right {float: right;margin-right: 186px;text-align: center;}
 
 .end-hopdong-left {
     float: left;
@@ -441,4 +441,29 @@ button.text-center.inhopdong {
     width: 131px;
     margin: 0 auto;
     display: block;
+}
+input.input-number {
+    width: 66px;
+}
+input.input-sdt {
+    width: 129px;
+}
+input.input-khoa {
+    width: 129px;
+}
+
+input.input-lop {
+    width: 120px;
+}
+span {
+    margin-left: 64px;
+}
+input {
+    margin-left: 6px;
+}
+input.input-dongia {
+    width: 86px;
+}
+input.input-masv {
+    width: 74px;
 }
