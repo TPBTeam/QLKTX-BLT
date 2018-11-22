@@ -22,7 +22,7 @@ require "template/components/siderbar.php";
 		</div>
 		<h3 class="text-center"><strong>HỢP ĐỒNG THUÊ CHỖ Ở NỘI TRÚ</strong></h3>
 		<div class="content-hopdong">
-			<p>Hôm nay, ngày .......... tháng ......... năm ........; tại Trường: HỌC VIỆN NÔNG NGHIỆP VIỆT NAM</p>
+			<p>Hôm nay, ngày <input type="" name="" value="<?php echo date("d") ?>"> tháng <input type="" name="" value="<?php echo date("m") ?>"> năm <input type="" name="" value="<?php echo date("Y") ?>">; tại Trường ............................................</p>
 			<p>Hai bên gồm:</p>
 			<strong>BÊN CHO THUÊ (Bên A): HỌC VIỆN NÔNG NGHIỆP VIỆT NAM</strong>
 			<p>Đại diện: ĐẶNG QUỐC THẮNG     <span style="padding-left: 182px">Đơn vị công tác: HỌC VIỆN NÔNG NGHIỆP VIỆT NAM</span></p>     
