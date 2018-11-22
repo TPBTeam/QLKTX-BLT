@@ -372,3 +372,73 @@ p.tenphong {
     margin-right: 15px;
     width: 100px;
 }
+/*<!--css hop dong-->*/
+
+.headerright {
+    float: right;
+    text-align: center;
+    color: black !important;
+    margin-right: 75px;
+}
+
+.headerleft {
+    display: inline-block;
+     margin-left: 75px;
+    text-align: center;
+    color: black;
+}
+hr {
+    margin-top: -18px;
+    width: 152px;
+    /* height: 0px; */
+    border-top: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+
+h3.text-center {
+    margin-top: 40px;
+}
+.headerleft p {
+    color: black;
+}
+
+.headerright p {
+    color: black;
+}
+.content-hopdong {
+    margin-top: 40px;
+}
+.headerleft p {
+    font-weight: bold;
+}
+
+.headerright p {
+    font-weight: bold;
+}
+
+.addcontract p  {
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+}
+.addcontract strong  {
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+
+}
+.end-hopdong-right {float: right;margin-right: 186px;text-align:;}
+
+.end-hopdong-left {
+    float: left;
+    text-align: center;
+    margin-left: 186px;
+}
+.printf-hopdong {
+    margin-top: 183px;
+}
+
+button.text-center.inhopdong {
+    height: 44px;
+    width: 131px;
+    margin: 0 auto;
+    display: block;
+}
