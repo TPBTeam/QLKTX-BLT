@@ -467,3 +467,7 @@ input.input-dongia {
 input.input-masv {
     width: 74px;
 }
+input.input-date-top {
+    width: 45px;
+    text-align: center;
+}

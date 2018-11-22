@@ -22,7 +22,7 @@ require "template/components/siderbar.php";
 		</div>
 		<h3 class="text-center"><strong>HỢP ĐỒNG THUÊ CHỖ Ở NỘI TRÚ</strong></h3>
 		<div class="content-hopdong">
-			<p>Hôm nay, ngày <input type="" name="" value="<?php echo date("d") ?>"> tháng <input type="" name="" value="<?php echo date("m") ?>"> năm <input type="" name="" value="<?php echo date("Y") ?>">; tại Trường ............................................</p>
+			<p>Hôm nay, ngày <input type="" name=""  class="input-date-top" value="<?php echo date("d") ?>"> tháng <input type=""  class="input-date-top" name="" value="<?php echo date("m") ?>"> năm <input type="" name="" class="input-date-top" value="<?php echo date("Y") ?>">; tại Học viện Nông nghiệp Việt Nam </p>
 			<p>Hai bên gồm:</p>
 			<strong>BÊN CHO THUÊ (Bên A): HỌC VIỆN NÔNG NGHIỆP VIỆT NAM</strong>
 			<p>Đại diện: ĐẶNG QUỐC THẮNG     <span style="padding-left: 182px">Đơn vị công tác: HỌC VIỆN NÔNG NGHIỆP VIỆT NAM</span></p>     
@@ -51,7 +51,7 @@ require "template/components/siderbar.php";
 				<option value="">C5</option>
 			</select>  
 		Ký túc xá Trường Học viện Nông nghiệp Việt Nam. Bên B được phép sử dụng các tài sản do nhà trường trang bị tại phòng ở cũng như các phòng sinh hoạt tập thể thuộc khuôn viên Ký túc xá theo Quy chế tổ chức & hoạt động, các quy định và nội quy của Ký túc xá.</p>
-			<strong style="text-decoration: underline;">Điều 2: Giá cả, thời gian và phương thức thanh toán.</strong>
+			<strong style="text-decoration: underline;">Điều 2:</strong><strong> Giá cả, thời gian và phương thức thanh toán.</strong>
 			<p>2.1. Đơn giá cho thuê: <input type="number" class="input-dongia
 				"> tháng.</p>
 			<p>2.2. Thời gian cho thuê: 01 học kỳ 05 tháng tính từ <input type="date"> đến <input type="date"></p>
