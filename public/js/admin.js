@@ -8,11 +8,15 @@ document.addEventListener("DOMContentLoaded",function(){
         sidebar.classList.toggle("active");
     }
     //Phần in ấn
-    console.log(addcontract);
+    console.log(inhopdong);
     inhopdong.onclick = function(){
-    	totalcontent = document.body.innerHTML;
-    	document.querySelector('body').innerHTML = addcontract;
-    	window.print();
-    	document.body.innerHTML = totalcontent;
+    	printWindow = open('','');
+    	printWindow.document.write(addcontract);
+    	// totalcontent = document.body.innerHTML;
+    	// document.querySelector('body').innerHTML = addcontract;
+    	printWindow.print();
+    	printWindow.close();
+
+    	// document.body.innerHTML = totalcontent;
     }
 },false)
