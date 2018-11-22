@@ -9,14 +9,12 @@ document.addEventListener("DOMContentLoaded",function(){
         sidebar.classList.toggle("active");
     }
     //Phần in ấn
-    console.log(head);
+    console.log("<head>"+head+"</head>");
     inhopdong.onclick = function(){
-    	printWindow = open('','');
-    	printWindow.document.write(head+addcontract);
-    	// totalcontent = document.body.innerHTML;
-    	// document.querySelector('body').innerHTML = addcontract;
+    	printWindow = open('','','width=1000,height=500');
+    	printWindow.document.write("<head>"+head+"</head>"+"<body>"+"<div class=\"addcontract\">"+addcontract+"</div>"+"</body>");
     	printWindow.print();
-    	printWindow.close();
+    	// printWindow.close();
 
     	// document.body.innerHTML = totalcontent;
     }
