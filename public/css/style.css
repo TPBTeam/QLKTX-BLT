@@ -420,10 +420,10 @@ h3.text-center {
     font-family: "Times New Roman", Times, serif;
     color:black;
 }
-.addcontract strong  {
+.addcontract,.addcontract ul li {
     font-family: "Times New Roman", Times, serif;
     color:black;
-
+    font-size: 1.1em;
 }
 .end-hopdong-right {float: right;margin-right: 186px;text-align:;}
 
